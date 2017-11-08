@@ -8,9 +8,9 @@
 import {html, render} from 'lit-html/lib/lit-extended';
 import {withForm} from 'lit-form';
 
-const newUserFormHtml = withForm({
+const userFormHtml = withForm({
     mapPropsToValues: ({user}) => user,
-    onSubmit: (values, { props }) => props.onAdd(values),
+    onSubmit: (values, { props }) => props.onSave(values),
 })(
     ({
         values,
@@ -24,19 +24,20 @@ const newUserFormHtml = withForm({
                 value="${ values.name }"
                 onchange="${ handleChange }"
             />
-            <button>Add</button>
+            <button>${ values.id ? 'Update': 'Add' }</button>
         </form>
     `
 );
 
 render(
     html`
-        ${ newUserFormHtml({
+        ${ userFormHtml({
             user: {
-                name: 'New user name',
+                id: null,
+                name: 'User name',
             },
-            onAdd: newUser => {
-                console.log(newUser);
+            onSave: user => {
+                console.log(user);
             },
         }) }
     `,
