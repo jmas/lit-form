@@ -44,6 +44,7 @@ render(
     document.body
 );
 ```
+[Live demo](https://codepen.io/alex_maslakov/pen/EbNMrL?editors=1000)
 
 ## Current progress
 
