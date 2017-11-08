@@ -10,7 +10,7 @@ import {withForm} from 'lit-form';
 
 const userFormHtml = withForm({
     mapPropsToValues: ({user}) => user,
-    onSubmit: (values, { props }) => props.onSave(values),
+    onSubmit: (values, {props}) => props.onSave(values),
 })(
     ({
         values,
