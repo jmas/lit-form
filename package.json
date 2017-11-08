@@ -1,0 +1,11 @@
+{
+  "name": "lit-form",
+  "version": "1.0.0",
+  "description": "`lit-form` is high-ordered component for `lit-html` (actually for `lit-extended`) that implement [Formik API](https://github.com/jaredpalmer/formik) for working with HTML forms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
