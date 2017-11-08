@@ -5,7 +5,6 @@
 ## Example
 
 ```js
-import {directive} from 'lit-html';
 import {html, render} from 'lit-html/lib/lit-extended';
 import {withForm} from 'lit-form';
 
