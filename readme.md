@@ -49,3 +49,7 @@ render(
 ## Current progress
 
 * Implemented collecting data from inputs and pass it to `onSubmit`
+
+## Other related projects
+
+* [`lit-redux`] - is `react-redux` API implementation for `lit-html` library
