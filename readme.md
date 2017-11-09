@@ -52,4 +52,4 @@ render(
 
 ## Other related projects
 
-* [`lit-redux`] - is `react-redux` API implementation for `lit-html` library
+* [`lit-redux`](https://github.com/jmas/lit-redux) - is `react-redux` API implementation for `lit-html` library
