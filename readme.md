@@ -8,7 +8,7 @@
 import {html, render} from 'lit-html/lib/lit-extended';
 import {withForm} from 'lit-form';
 
-const userFormHtml = withForm({
+const userFormView = withForm({
     mapPropsToValues: ({user}) => user,
     onSubmit: (values, {props}) => props.onSave(values),
 })(
@@ -31,7 +31,7 @@ const userFormHtml = withForm({
 
 render(
     html`
-        ${ userFormHtml({
+        ${ userFormView({
             user: {
                 id: null,
                 name: 'User name',
