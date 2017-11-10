@@ -22,6 +22,15 @@ export const withForm = (options={}) => {
                     [target.name]: target.value,
                 }));
             },
+            setFieldValue(field, value) {
+                part.setValue(update({
+                    ...values,
+                    [field]: value,
+                }));
+            },
+            setValues(fields) {
+                part.setValue(update(fields));
+            },
         });
         return update(values);
     });
