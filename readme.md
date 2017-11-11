@@ -53,3 +53,4 @@ render(
 ## Other related projects
 
 * [`lit-redux`](https://github.com/jmas/lit-redux) - is `react-redux` API implementation for `lit-html` library
+* [`lit-todo-example`](https://github.com/jmas/lit-todo-example) - `lit-html` + `lit-redux` + `lit-form`
