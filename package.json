@@ -1,6 +1,6 @@
 {
   "name": "lit-form",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "`lit-form` is high-ordered component for `lit-html` (actually for `lit-extended`) that implement [Formik API](https://github.com/jaredpalmer/formik) for working with HTML forms.",
   "main": "bundle.js",
   "scripts": {
