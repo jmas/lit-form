@@ -52,5 +52,6 @@ render(
 
 ## Other related projects
 
+* [`lit-html`](https://github.com/PolymerLabs/lit-html) - `lit-html` lets you write HTML templates with JavaScript template literals, and efficiently render and re-render those templates to DOM
 * [`lit-redux`](https://github.com/jmas/lit-redux) - is `react-redux` API implementation for `lit-html` library
 * [`lit-todo-example`](https://github.com/jmas/lit-todo-example) - `lit-html` + `lit-redux` + `lit-form`
